@@ -1,6 +1,7 @@
 'use client'; 
 import React from 'react'; 
-import { IoFastFoodSharp } from 'react-icons/io5'; // Import the icon
+import { IoFastFoodSharp } from 'react-icons/io5'; 
+import Image from 'next/image'
 
 export default function AboutUs() {
   return (
