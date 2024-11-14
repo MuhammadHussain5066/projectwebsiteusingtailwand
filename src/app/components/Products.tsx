@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import Image from 'next/image';
 
 export default function ProductPage() {
   return (
@@ -12,10 +13,12 @@ export default function ProductPage() {
         <div className="flex flex-wrap justify-center gap-8">
           {/* Product 1 */}
           <div className="w-80 bg-white text-black rounded-lg shadow-lg p-4">
-            <img 
-              src="https://shorturl.at/EaNqy" 
-              alt="Burger"
+            <Image
+              src="https://shorturl.at/EaNqy"
+              alt="Cheesy Burger"
               className="w-full h-48 object-cover mb-4 rounded-lg"
+              width={320} // Added width for image optimization
+              height={192} // Added height for image optimization
             />
             <h2 className="text-2xl font-semibold">Cheesy Burger</h2>
             <p className="text-lg text-gray-700 mb-4">A juicy beef patty with melted cheese, fresh lettuce, and special sauce.</p>
@@ -27,10 +30,12 @@ export default function ProductPage() {
           
           {/* Product 2 */}
           <div className="w-80 bg-white text-black rounded-lg shadow-lg p-4">
-            <img 
-              src="https://shorturl.at/La0DZ" 
-              alt="Fries"
+            <Image
+              src="https://shorturl.at/La0DZ"
+              alt="Crispy Fries"
               className="w-full h-48 object-cover mb-4 rounded-lg"
+              width={320} // Added width for image optimization
+              height={192} // Added height for image optimization
             />
             <h2 className="text-2xl font-semibold">Crispy Fries</h2>
             <p className="text-lg text-gray-700 mb-4">Golden, crispy fries served with your choice of dipping sauce.</p>
@@ -42,10 +47,12 @@ export default function ProductPage() {
 
           {/* Product 3 */}
           <div className="w-80 bg-white text-black rounded-lg shadow-lg p-4">
-            <img 
-              src="https://shorturl.at/rhkbd" 
-              alt="Drink"
+            <Image
+              src="https://shorturl.at/rhkbd"
+              alt="Soda Drink"
               className="w-full h-48 object-cover mb-4 rounded-lg"
+              width={320} // Added width for image optimization
+              height={192} // Added height for image optimization
             />
             <h2 className="text-2xl font-semibold">Soda Drink</h2>
             <p className="text-lg text-gray-700 mb-4">Refreshing soda with a variety of flavors to choose from.</p>
@@ -63,8 +70,8 @@ export default function ProductPage() {
           <div className="text-center">
             <h2 className="text-2xl font-semibold mb-2">Contact Us</h2>
             <p className="text-lg mb-4">Have any questions or need help? Reach out to us!</p>
-            <a 
-              href="mailto:info@huzfoods.com" 
+            <a
+              href="mailto:contact@huzfoods.com" // Use 'mailto' for email link
               className="bg-yellow-500 text-black px-4 py-2 rounded-lg hover:bg-yellow-600 transition duration-300"
             >
               Email Us

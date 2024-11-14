@@ -1,6 +1,7 @@
 'use client'; 
 import React from 'react'; 
 import { IoFastFoodSharp } from 'react-icons/io5'; 
+import Image from 'next/image';
 
 export default function AboutUs() {
   return (
@@ -14,10 +15,12 @@ export default function AboutUs() {
         </h1>
         
         {/* Restaurant Image */}
-        <img 
+        <Image
           src="https://shorturl.at/h4jCz" 
           alt="Restaurant Interior" 
           className="w-full h-64 object-cover mb-6"
+          width={600} // Added width for image optimization
+          height={400} // Added height for image optimization
         />
 
         <p className="text-xl max-w-3xl mx-auto mb-4">
@@ -29,10 +32,12 @@ export default function AboutUs() {
         </p>
         
         {/* Food Image */}
-        <img 
+        <Image
           src="https://shorturl.at/Zb8FQ" 
           alt="Delicious Food" 
           className="w-full h-80 object-cover mb-6"
+          width={800} // Added width for image optimization
+          height={533} // Added height for image optimization
         />
         
         <div className="mt-4">
