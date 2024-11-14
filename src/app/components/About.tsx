@@ -24,11 +24,7 @@ export default function AboutUs() {
         />
 
         <p className="text-xl max-w-3xl mx-auto mb-4">
-          Welcome to Huzfoods, where we serve delicious, freshly made fast food with love and care. 
-          Our mission is to provide a quick and satisfying meal experience for our customers while ensuring the highest quality ingredients. 
-          Whether you're here for a quick snack or a full meal, we’ve got you covered. We pride ourselves on creating tasty dishes that satisfy 
-          cravings without compromising on quality. Our team is dedicated to delivering fast, friendly service in a comfortable, welcoming 
-          environment. Thank you for choosing us as your go-to spot for fast food – we can't wait to serve you!
+          Hi we will serve you
         </p>
         
         {/* Food Image */}
@@ -43,9 +39,7 @@ export default function AboutUs() {
         <div className="mt-4">
           <h2 className="text-2xl font-semibold">Our Mission</h2>
           <p className="text-lg mt-4 max-w-2xl mx-auto">
-            At Huzfoods, we aim to make every meal a delightful experience. We focus on bringing you food 
-            that is quick, affordable, and, most importantly, delicious. We believe in using fresh, high-quality ingredients, prepared 
-            with care, to give our customers the best taste and value.
+            come at our place
           </p>
         </div>
       </div>
