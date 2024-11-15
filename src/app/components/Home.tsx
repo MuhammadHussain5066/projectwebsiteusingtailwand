@@ -1,15 +1,26 @@
 'use client';
 import React from 'react';
+import './Homepage.css';  // Import the custom CSS file
 
-export default function App() { 
+export default function App() {
   return (
-    <div className="relative overflow-hidden bg-gradient-to-r from-black to-gray-700 text-white p-4 rounded-lg">
-      <div className="absolute top-0 left-0 w-full h-full bg-black opacity-20"></div>
-      
-      <div className="relative z-10 flex items-center justify-center h-full">
-        <h1 className="text-center text-2xl font-semibold">
-          Welcome to my Fastfood website Homepage
-        </h1>
+    <div>
+      {/* Homepage Section with Gradient Background */}
+      <div className="homepage-container">
+        <div className="homepage-background"></div>
+
+        <div className="homepage-content">
+          <h1 className="homepage-title">
+            <div className="homepage-text-box">Welcome to my Resturant website</div>
+          </h1>
+          <p className="homepage-description">
+            Discover delicious meals, quick delivery, and unbeatable prices right at your doorstep.
+          </p>
+          
+          <button className="homepage-text-button">
+            Order Now
+          </button>
+        </div>
       </div>
     </div>
   );

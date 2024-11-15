@@ -1,0 +1,71 @@
+/* Homepage.css */
+
+.homepage-container {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #00b5ad, #3b82f6);
+    color: white;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .homepage-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+  }
+  
+  .homepage-content {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .homepage-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1rem;
+    line-height: 1.25;
+  }
+  
+  .homepage-description {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #e5e7eb;
+    margin-bottom: 1.5rem;
+  }
+  
+  .homepage-text-box {
+    background-color: #f87171; /* Red background */
+    color: black;
+    padding: 1rem;
+    border-radius: 0.375rem;
+  }
+  
+  .homepage-text-button {
+    margin-top: 1.5rem;
+    padding: 0.75rem 2rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    background-color: #00b5ad;
+    color: white;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .homepage-text-button:hover {
+    background-color: #099e96;
+  }
+  
